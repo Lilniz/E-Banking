@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
         product_name: String,
         price: NUMBER,
         stock: INTEGER,
-        tagIds: Array
+        tagIds: [1, 2, 3, 4]
       }
     })
     res.status(200).json(productData);
